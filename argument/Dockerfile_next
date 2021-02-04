@@ -1,0 +1,7 @@
+ARG VERSION=latest
+FROM ubuntu:$VERSION
+MAINTAINER Ashish
+RUN apt-get update
+ENV name Ashish
+ENV ver $VERSION 
+ENTRYPOINT echo "Hello, $name - Ubuntu Version is $ver"
