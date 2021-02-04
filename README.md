@@ -71,7 +71,9 @@ As you see, Docker did not override the initial instruction of echoing Hello Wor
 sudo docker run [image_name]
 ```
 
-![Docker ENTRYPOINT vs CMD instructions combined.](https://github.com/dahiyaashish/cmd-entrypoint/blob/main/assets/common1.png)It will return the message  `Hello World`. However, what happens when we add parameters to the docker run command?
+![Docker ENTRYPOINT vs CMD instructions combined.](https://github.com/dahiyaashish/cmd-entrypoint/blob/main/assets/common1.png)
+
+It will return the message  `Hello World`. However, what happens when we add parameters to the docker run command?
 
 Use the same command again, but this time add your name to the run command:
 
